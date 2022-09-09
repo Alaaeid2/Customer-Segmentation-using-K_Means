@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>EPITA/TTT/MLF/ML2</title>
+    <link rel="shortcut icon" href="https://maharatech.gov.eg/pluginfile.php/1/theme_edumy/favicon/1628588317/iti-fav%20%281%29.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, EPITA/TTT/MLF/ML2" />
+<link rel="stylesheet" type="text/css" href="https://maharatech.gov.eg/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://maharatech.gov.eg/theme/styles.php/edumy/1628588317_1/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/maharatech.gov.eg","sesskey":"QtA4lW13z6","sessiontimeout":"7200","themerev":"1628588317","slasharguments":1,"theme":"edumy","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1628588317","admin":"admin","svgicons":true,"usertimezone":"Africa\/Cairo","contextid":249792,"langrev":1631153379,"templaterev":"1628588317"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/maharatech.gov.eg\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/maharatech.gov.eg\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/maharatech.gov.eg\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/maharatech.gov.eg\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/maharatech.gov.eg\/theme\/yui_combo.php?m\/1628588317\/","combine":true,"comboBase":"https:\/\/maharatech.gov.eg\/theme\/yui_combo.php?","ext":false,"root":"m\/1628588317\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_coursecompleted-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_enrollmethod-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_paypal-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_role-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-block_xp-rulepicker"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/maharatech.gov.eg\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/maharatech.gov.eg\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1628588317\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/maharatech.gov.eg\/lib\/javascript.php\/1628588317\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/maharatech.gov.eg\/lib\/javascript.php\/1628588317\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T2VPSGT');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VPSGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- =================== Google Analytics =================-->
+<!--Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138951665-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138951665-1');
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>/*====THIS IS TEMP UNTILL WE MODIFY THE COURSE DESCRIPTION=== */
+.coursedesc{
+    display:none;
+}
+/*==================== */
+/* TEMP HIDE the section description in Edumy untill we completly disable lambada */
+.section .label .contentwithoutlink {
+    display: none;
+}
+/*==================== */
+/* TEMP HIDE the section Technological tracks for lambada*/
+.technological-track-lambada {
+    display: none;
+}
+/*==================== */
+/*This to hide custom HTML added in additional HTML setting for contact by lambada theme */
+.custom-contact-lambada{
+display:none;
+}
+/*==================== */
+
+/*Reduce padding in front menu header */
+.ccn_header_style_9 header.header-nav.ccnHeader9.menu_style_home_one .ace-responsive-menu>li>a{
+    padding:7px;
+    padding-top:25px;
+}
+/*==================== */
+
+/*this is for expert talk home page block */
+.experttalksBTN {
+  text-align:center!important;padding:20px;background-color:#f7f7f7;font-size:28px;border-radius: 15px;}
+.experttalksBTN a {color:#333;}
+/*==================== */
+
+/*this is for what people say block */
+.whatpeoplesayBlock .fa-quote-left:before {
+    display:none;}
+.whatpeoplesayBlock .ccn-img-90 {
+    min-width: 170px;
+    min-height: 170px;
+    height: 170px;
+    width: 170px;
+    max-width: 170px;
+    max-height: 170px;}
+.whatpeoplesayBlock .ccn_testimonial_slider_home2 .owl-item.active.center .testimonial_item.home2.ccnTestimonials2 .details {
+    border: none;}
+.whatpeoplesayBlock .title  {
+    color:#8D1F28;}
+.whatpeoplesayBlock .subtitle {
+    color:#333;}
+.whatpeoplesayBlock .testimonial_item p{
+    min-height:150px;
+    }
+/*==================== */
+/* change weekly format general section*/
+.course-content ul.weeks h3.sectionname {
+    background-color: #ffffff00;
+    font-size: 24px;
+}
+/*==================== */
+
+/* Remove overlay from homepage slider*/
+.homepage-slider .home1-mainslider .banner-style-one .slide:before {
+    opacity: 0;
+}
+
+/*#page-site-index header.ccnHeader9.header-nav.menu_style_home_one.navbar-scrolltofixed.stricky.main-menu.slideIn.animated.scroll-to-fixed-fixed {
+    background-image: -webkit-linear-gradient(45deg,#000000 0%,#4a0207 100%);
+    opacity:0.85;*/
+}
+/*==================== */
+
+/* what about maharatech page video*/
+
+.about-videotext 
+{
+  background-color:#f9fafc;
+}
+
+.about-videotext h3 {
+    color: #8d1f28;
+}
+/*==================== */
+
+
+/* Customize tech talks block for tall heigh image and hiding overlay and details*/
+.tech-talks .ccn-courses-grid-block-2 .top_courses .thumb img {
+    object-fit: fill !important;
+}
+
+.tech-talks .ccn-courses-grid-block-2 .top_courses .thumb:before {
+    opacity: 0;
+}
+
+.tech-talks .ccn-courses-grid-block-2 .top_courses:hover .thumb .overlay:before{
+  opacity:.2;
+ background-color:#ffffff;
+}
+
+.tech-talks .ccn-courses-grid-block-2 .top_courses .thumb{
+  min-height: 477px !important;
+}
+
+.tech-talks .details {
+  display:none;
+}
+
+.tech-talks .top_courses.ccnWithFoot {
+    height: auto;
+    padding:50px 5px 50px 5px;
+  	max-width: 300px;
+}
+
+.tech-talks .ccnBlockContent .container{
+     width: fit-content;
+}
+/*================================================ */
+
+/* Make all courses same height in Featured Courses Mantesory block*/
+.top_courses .details .tc_content h5 {
+height: 50px;
+overflow: hidden;
+margin-bottom: 0;
+text-overflow: ellipsis;
+}
+/*===================================*/
+
+/* Change all blocks Title color*/
+.ccnBlockContent .container .main-title .mt0 {
+    color: #8D1F27 !important;
+}
+/*===================================*/
+
+/* Fix Comments scroll below course*/
+.comment-list .no-overflow {
+    overflow: inherit;
+}
+/*===================================*/
+
+/* Remove overlay & hover from new learning opportunities page and in home block*/
+.NLO-page .top_courses .thumb:before,.NLO-home .top_courses .thumb:before {
+  background-color: rgba(0,0,0,0);}
+.NLO-page .ccn-courses-grid-block .top_courses:hover .thumb .overlay:before,.NLO-home .ccn-courses-grid-block .top_courses:hover .thumb .overlay:before{
+ background-color: rgba(0,0,0,0);
+}
+/*==================== */
+
+.tech-talks .col-md-6 {
+   max-width: 300px !important;
+}
+
+/*Modify Comments Block on side Bar to be smaller for better display */
+.ccn-sidebar-region .block_comments .ccn_userpicture {
+    margin-right: 0.5rem!important;
+    width: 18px;
+    height: 18px;
+}
+
+.ccn-sidebar-region .block_comments .sub_title{
+    font-size: small;
+}
+
+.ccn-sidebar-region .block_comments .sspd_postdate{
+    font-size: x-small;
+}
+
+.ccn-sidebar-region .block_comments .mt20 {
+    margin-top: 5px;
+}
+/*==================== */
+
+/*Fix What People Say background on Mobile*/
+@media (max-width:768px){
+    .whatpeoplesayBlock .owl-item.active .testimonial_item.home2 .details p{
+    color:#333;
+    }
+
+     .whatpeoplesayBlock .owl-item.active .details{
+         background-color:#fff !important;
+     }
+}
+
+/*==================== */
+/*home page slider remove overlay */
+.homeSlider .home1-mainslider.home9 .banner-style-one.home9 .slide:before {
+   background-color: rgba(0,0,0,0);}
+/*home page slider change button color */
+.homeSlider .video_popup_icon {
+    background-color: #8d1f28;}
+.homeSlider .video_popup_icon:after {
+    background-color: rgb(141 31 40 / 0.5);
+}
+/*home page slider change font weight */
+.homeSlider .home1-mainslider .banner-style-one.home9 .banner-title {
+  font-weight: 700;
+}
+
+.homeSlider .banner-style-one.home9 .sub-title {
+  font-weight:100;
+}
+
+.homeSlider .banner-style-one.home9 .home-content:before {
+    display:none ;
+}/*==================== */
+
+.top_courses .thumb:before {
+  background-color: rgba(0,0,0,0);}
+
+</style>
+</head>
+<body  id="page-enrol-index" class="format-topics  path-enrol chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam maharatech-gov-eg pagelayout-incourse course-966 context-249792 category-197 ccn_no_hero ccn_header_style_9 ccn_footer_style_1 ccn_blog_style_1 ccn_course_list_style_2 ccn_breadcrumb_style_2 role-standard ccn-not-front ccn_header_applies-all  ccn_dashboard_header_sticky  ccn_dashboard_header_gradient   ccn_course_single_v1     ccnUG ccn_context_frontend">
+    <div class="preloader
+      
+      
+       ccn_preloader_5 
+      
+      
+      
+    "></div>
+  <div class="wrapper">
+        <header class="ccnHeader9 header-nav menu_style_home_one navbar-scrolltofixed stricky main-menu">
+          <div class="container-fluid">
+            <!-- Ace Responsive Menu -->
+            <nav>
+              <!-- Menu Toggle btn-->
+              <div class="menu-toggle">
+                <img class="nav_logo_img img-fluid" src="https://maharatech.gov.eg/pluginfile.php/1/theme_edumy/headerlogo1/1628588317/LOGO%20maharatech.png" alt="Mahara-Tech">
+                <button type="button" id="menu-btn">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+                <a href="https://maharatech.gov.eg" class="navbar_brand float-left dn-smd">
+                  <img class="logo1 img-fluid" src="https://maharatech.gov.eg/pluginfile.php/1/theme_edumy/headerlogo1/1628588317/LOGO%20maharatech.png" alt="Mahara-Tech" >
+                  <img class="logo2 img-fluid" src="https://maharatech.gov.eg/pluginfile.php/1/theme_edumy/headerlogo2/1628588317/LOGO%20maharatech.png" alt="Mahara-Tech" >
+                  
+                </a>
+              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                <li class=""><a class="" title="Home" href="https://maharatech.gov.eg/?redirect=0">Home</a></li><li class=""><a class="" title="New Learning Opportunities" href="https://maharatech.gov.eg/mod/page/view.php?id=8782">New Learning Opportunities</a></li><li class=""><a class="" title="Technological Tracks" href="https://maharatech.gov.eg/mod/page/view.php?id=201">Technological Tracks</a></li><li class=""><a class="" title="Career Talks" href="https://maharatech.gov.eg/mod/page/view.php?id=8725">Career Talks</a></li><li class=""><a class="" title="ITI Programs" href="https://maharatech.gov.eg/mod/page/view.php?id=1835">ITI Programs</a></li><li><a class="ccn-menu-item" title="Language" href="#">English ‎(en)‎</a><ul><li class=""><a class="" title="English ‎(en)‎" href="https://maharatech.gov.eg/enrol/index.php?id=966&amp;lang=en">English ‎(en)‎</a></li><li class=""><a class="" title="العربية ‎(ar)‎" href="https://maharatech.gov.eg/enrol/index.php?id=966&amp;lang=ar">العربية ‎(ar)‎</a></li></ul></li>
+              </ul>
+              <ul class="sign_up_btn pull-right dn-smd mt20">
+                  <li class="list-inline-item list_s">
+                    <a href="#" class="btn flaticon-user" data-toggle="modal" data-target="#exampleModalCenter"> <span class="dn-lg">Login/Register</span></a>
+                  </li>
+                  <li class="list-inline-item list_s">
+                    <div class="search_overlay">
+                      <a id="search-button-listener" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+                        <span id="search-button"><i class="flaticon-magnifying-glass"></i></span>
+                      </a>
+                    </div>
+                  </li>
+              </ul><!-- Button trigger modal -->
+            </nav>
+          </div>
+        </header>
+        <div id="page" class="stylehome1 h0">
+          <div class="mobile-menu">
+            <div class="header stylehome1">
+                <div class="main_logo_home2">
+                  <a class="mobileBrand" href="https://maharatech.gov.eg">
+                        <img class="nav_logo_img img-fluid float-left mt20" src="https://maharatech.gov.eg/pluginfile.php/1/theme_edumy/headerlogo_mobile/1628588317/LOGO%20maharatech.png" alt="Mahara-Tech" >
+                    
+                  </a>
+                </div>
+              <ul class="menu_bar_home2">
+                  <li class="list-inline-item">
+                    <div class="search_overlay">
+                      <a id="search-button-listener2" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+                        <div id="search-button2"><i class="flaticon-magnifying-glass"></i></div>
+                      </a>
+                    </div>
+                  </li>
+                <li class="list-inline-item ccn_mob_menu_trigger "><a href="#menu"><span></span></a></li>
+              </ul>
+            </div>
+          </div><!-- /.mobile-menu -->
+          <nav id="menu" class="stylehome1">
+            <ul>
+              <li class=""><a class="" title="Home" href="https://maharatech.gov.eg/?redirect=0">Home</a></li><li class=""><a class="" title="New Learning Opportunities" href="https://maharatech.gov.eg/mod/page/view.php?id=8782">New Learning Opportunities</a></li><li class=""><a class="" title="Technological Tracks" href="https://maharatech.gov.eg/mod/page/view.php?id=201">Technological Tracks</a></li><li class=""><a class="" title="Career Talks" href="https://maharatech.gov.eg/mod/page/view.php?id=8725">Career Talks</a></li><li class=""><a class="" title="ITI Programs" href="https://maharatech.gov.eg/mod/page/view.php?id=1835">ITI Programs</a></li><li><a class="ccn-menu-item" title="Language" href="#">English ‎(en)‎</a><ul><li class=""><a class="" title="English ‎(en)‎" href="https://maharatech.gov.eg/enrol/index.php?id=966&amp;lang=en">English ‎(en)‎</a></li><li class=""><a class="" title="العربية ‎(ar)‎" href="https://maharatech.gov.eg/enrol/index.php?id=966&amp;lang=ar">العربية ‎(ar)‎</a></li></ul></li>
+                <li><a href="https://maharatech.gov.eg/login/index.php"><span class="ccn-flaticon-user"></span> Login</a></li>
+                 <li><a href="https://maharatech.gov.eg/login/signup.php"><span class="ccn-flaticon-login"></span> Sign up!</a></li>
+                <li class="ccn_mob_menu_iconed"><a href="/cdn-cgi/l/email-protection#ddb4b3bbb29db0bcb5bcafbca9b8beb5f3bab2abf3b8ba"><i class="flaticon-paper-plane"></i> <span class="__cf_email__" data-cfemail="e78e898188a78a868f8695869382848fc9808891c98280">[email&#160;protected]</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      <div class="sign_up_modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home">
+                <div class="login_form">
+                  <div class="heading">
+                    <h3 class="text-center">Login to your account</h3>
+                      <p class="text-center">Don't have an account? <a class="text-thm" href="https://maharatech.gov.eg/login/signup.php">Sign up!</a></p>
+                  </div>
+                  
+<form class="loginform" id="login" method="post" action="https://maharatech.gov.eg/login/index.php"><div class="form-group"><input type="text" name="username" placeholder="Username" id="login_username"  class="form-control" value="" autocomplete="username"/></div><div class="form-group"><input type="password" name="password" id="login_password" placeholder="Password"  class="form-control" value="" autocomplete="current-password"/></div>
+                              <div class="form-group custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" name="rememberusername" id="rememberusername">
+                                <label class="custom-control-label" for="rememberusername">Remember username</label>
+                                <a class="tdu btn-fpswd float-right" href="https://maharatech.gov.eg/login/forgot_password.php">Lost password?</a>
+                              </div><button type="submit" class="btn btn-log btn-block btn-thm2">Log in</button><input type="hidden" name="logintoken" value="QmRc79YIiTlLOHXswFNI4TRsTKxukcKh" /></form>
+<div class="potentialidps"><h6>Log in using your account on:</h6><div class="potentialidplist"><div class="potentialidp"><a class="btn btn-secondary btn-block" href="https://maharatech.gov.eg/auth/oauth2/login.php?id=2&amp;wantsurl=https%3A%2F%2Fmaharatech.gov.eg%2Fenrol%2Findex.php%3Fid%3D966&amp;sesskey=QtA4lW13z6" title="Google"><img src="https://accounts.google.com/favicon.ico" width="24" height="24" class="mr-1"/>Google</a></div><div class="potentialidp"><a class="btn btn-secondary btn-block" href="https://maharatech.gov.eg/auth/oauth2/login.php?id=10&amp;wantsurl=https%3A%2F%2Fmaharatech.gov.eg%2Fenrol%2Findex.php%3Fid%3D966&amp;sesskey=QtA4lW13z6" title="Microsoft"><img src="https://www.microsoft.com/favicon.ico" width="24" height="24" class="mr-1"/>Microsoft</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search_overlay" id="ccnSearchOverlayWrap">
+        <div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+          <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
+          <div id="mk-fullscreen-search-wrapper">
+            <div id="ccn_mk-fullscreen-search-wrapper">
+              <form class="ccn-mk-fullscreen-searchform" action="https://maharatech.gov.eg/search/index.php"><fieldset><input id="searchform_search" name="q" class="ccn-mk-fullscreen-search-input" placeholder="Search courses..." type="text" size="15" /><input type="hidden" name="context" value="249792" /><i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit" id="searchform_button"></i></fieldset></form>
+            </div>
+          </div>
+        </div>
+      </div>
+        <section class="inner_page_breadcrumb ccn_breadcrumb_s  ccn-no-clip  ccn-caps-none  ccn-breadcrumb-title-v  ccn-breadcrumb-trail-v ">
+          <div class="container">
+            <div class="breadcrumb_content">
+              <div class="row">
+                  <div class="col-xl-6">
+                    <h4 class="breadcrumb_title">Machine Learning II: Bayesian &amp; Unsupervised Methods</h4>
+                  </div>
+                  <div class="col-xl-6">
+                    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/"  >Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/index.php"  >Courses</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/index.php?categoryid=1"  >Mahara-Tech</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/index.php?categoryid=147"  >AI Talents Hub</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/index.php?categoryid=152"  >MCIT/EPITA</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/index.php?categoryid=153"  >AI-Pro (Powered by EPITA)</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/index.php?categoryid=197"  >Module Two</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="https://maharatech.gov.eg/course/view.php?id=966"  title="Machine Learning II: Bayesian &amp; Unsupervised Methods" >Machine Learning II: Bayesian &amp; Unsupervised Methods</a>
+      </li>
+      <li class="breadcrumb-item active ">Enrolment options</li>
+</ol>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <div id="ccn-page-wrapper">
+      <div id="ccnSettingsMenuContainer"><div id="ccnSettingsMenuInner">
+      </div></div>
+      <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/polyfills/polyfill.js"></script>
+<script src="https://maharatech.gov.eg/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://maharatech.gov.eg/theme/jquery.php/core/jquery-3.4.1.min.js"></script>
+<script src="https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/javascript-static.js"></script>
+<script src="https://maharatech.gov.eg/theme/javascript.php/edumy/1628588317/head"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+      <div>
+        <div class="container ccn_breadcrumb_widgets clearfix">
+</div>
+        <aside id="block-region-fullwidth-top" class="block-region" data-blockregion="fullwidth-top" data-droptarget="1"></aside>
+        <div id="ccn-main-region">
+          <div class="container">
+            <div class="row">
+              <div class="
+                 col-md-12 col-lg-12 col-xl-12 
+                
+                
+                
+              ">
+              <div id="region-main"  aria-label="Content">
+                  <aside id="block-region-above-content" class="block-region" data-blockregion="above-content" data-droptarget="1"></aside>
+                <div id="ccn-main">
+                  <span class="notifications" id="user-notifications"></span>
+                  <span id="maincontent"></span><h2>Enrolment options</h2><div class="box py-3 generalbox info">
+							<div class="col-lg-12 p0"><div class="courses_list_content">
+								<div class="top_courses list ccnWithFoot">
+									<div class="thumb">
+										<img class="img-whp" src="https://maharatech.gov.eg/pluginfile.php/249792/course/overviewfiles/sphx_glr_plot_cluster_comparison_001.png" alt="Machine Learning II: Bayesian &amp; Unsupervised Methods">
+										<div class="overlay">
+                      <div class="tag">Module Two</div>
+											<a class="tc_preview_course" href="https://maharatech.gov.eg/course/view.php?id=966">Preview Course</a>
+										</div>
+									</div>
+									<div class="details">
+										<div class="tc_content">
+											<p>Module Two</p>
+											<a href="https://maharatech.gov.eg/course/view.php?id=966"><h5>Machine Learning II: Bayesian &amp; Unsupervised Methods</h5></a>
+											<p></p><div class="info"><div class="moreinfo"></div></div>
+										</div>
+  										<div class="tc_footer">
+                      <ul class="tc_meta float-left fn-414"><li class="list-inline-item"><i class="flaticon-profile"></i></li><li class="list-inline-item">326</li></ul><div class="tc_price float-right">FREE</div>
+                      </div>
+									</div>
+								</div>
+							</div></div></div><div class="box py-3 generalbox">
+<form autocomplete="off" action="https://maharatech.gov.eg/login/index.php" method="post" accept-charset="utf-8" id="mform1_shjEsfHSHPSGG7T" class="mform">
+	<div style="display: none;"><input name="sesskey" type="hidden" value="QtA4lW13z6" />
+<input name="_qf__enrol_self_empty_form" type="hidden" value="1" />
+<input name="mform_isexpanded_id_selfheader" type="hidden" value="1" />
+</div>
+
+
+	<fieldset class="clearfix collapsible"  id="id_selfheader">
+		<legend class="ftoggler">Self enrolment (Student)</legend>
+		<div class="fcontainer clearfix">
+		<div id="fitem_id_info" class="form-group row  fitem femptylabel  " >
+    <div class="col-md-3 col-form-label d-flex pb-0 pr-md-0">
+        
+        <span class="ml-1 ml-md-auto d-flex align-items-center align-self-start">
+            
+        </span>
+    </div>
+    <div class="col-md-9 form-inline align-items-start felement" data-fieldtype="static">
+        <div class="form-control-static">
+        Guests cannot access this course. Please log in.<div class="continuebutton">
+    <form method="get" action="https://maharatech.gov.eg/login/index.php" >
+        <button type="submit" class="btn btn-primary"
+            id="single_button613b5abac696b1"
+            title=""
+            
+            >Continue</button>
+    </form>
+</div>
+        </div>
+        <div class="form-control-feedback invalid-feedback" id="id_error_info" >
+            
+        </div>
+    </div>
+</div>
+		</div></fieldset>
+</form></div>
+                    
+                  
+                </div>
+                  <aside id="block-region-below-content" class="block-region" data-blockregion="below-content" data-droptarget="1"></aside>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside id="block-region-fullwidth-bottom" class="block-region" data-blockregion="fullwidth-bottom" data-droptarget="1"></aside>
+      </div>
+    </div>
+      <section class="footer_one  ">
+        <div class="container">
+          <div class="row">
+          </div>
+        </div>
+      </section>
+      <section class="footer_middle_area p0  ">
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3 pb15 pt15">
+                <div class="logo-widget  home1    ">
+                   <img class="img-fluid" src="https://maharatech.gov.eg/pluginfile.php/1/theme_edumy/footerlogo1/1628588317/Footer%20Logos.png%20%282%29.png" alt="Mahara-Tech" >
+                  <span>Mahara-Tech</span>
+                </div>
+              </div>
+              <div class="col-sm-8 col-md-5 col-lg-6 col-xl-6 text-center pb25 pt25">
+                <div class="footer_menu_widget">
+                  
+<ul>
+<li class="list-inline-item"><a href="/?redirect=0">Home</a></li>
+<li class="list-inline-item"><a href="/?redirect=0&amp;theme=lambda">Old Site</a></li>
+</ul>
+
+
+                </div>
+              </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 pb15 pt15">
+              <div class="footer_social_widget mt15">
+                <ul>
+                    <li class="list-inline-item"><a  target="_self"  href="https://www.facebook.com/maharatech.Eg/"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a  target="_self"  href="https://www.youtube.com/channel/UC5LihoOOzxapt2GS8bPzJhw?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
+                    <li class="list-inline-item"><a  target="_self"  href="https://www.linkedin.com/in/mahara-tech-299077185/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="footer_bottom_area pt25 pb25  ">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                <div class="copyright-widget text-center">
+                  <p>Copyright © 2020 MAHARA-TECH by ITI. All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+    <a class="scrollToHome" href="#"><i class="flaticon-up-arrow-1"></i></a>
+  
+  
+  
+  <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://maharatech.gov.eg/lib/requirejs.php/1628588317/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://maharatech.gov.eg/lib/javascript.php/1628588317/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('en');
+});;
+
+require(['theme_boost/form-display-errors'], function(module) {
+    module.enhance("id_info");
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select613b5abac696b6').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f613b5abac696b5').submit();
+        }
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select613b5abac696b8').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f613b5abac696b7').submit();
+        }
+    });
+});
+;
+
+  M.util.js_pending('theme_boost/loader');
+  require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+  });
+  M.util.js_pending('theme_boost/drawer');
+  require(['theme_boost/drawer'], function(mod) {
+  mod.init();
+  M.util.js_complete('theme_boost/drawer');
+  });
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(249792, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","changesmadereallygoaway":"You have made changes. Are you sure you want to navigate away and lose your changes?","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+Y.use("moodle-core-formchangechecker",function() {M.core_formchangechecker.init({"formid":"mform1_shjEsfHSHPSGG7T","initialdirtystate":false});
+});
+Y.use("moodle-form-shortforms",function() {M.form.shortforms({"formid":"mform1_shjEsfHSHPSGG7T"});
+});
+ccnCommentHandler(Y, "Add a Comment & Review");
+ccnControl(Y, "https:\/\/maharatech.gov.eg\/theme\/edumy\/ccn\/visualize\/ccn_block\/jpeg\/large\/", "https:\/\/maharatech.gov.eg\/theme\/edumy\/ccn\/visualize\/ccn_block\/jpeg\/thumb\/", ["cocoon_about_1","cocoon_about_2","cocoon_accordion","cocoon_action_panels","cocoon_boxes","cocoon_blog_recent_slider","cocoon_faqs","cocoon_event_list","cocoon_event_list_2","cocoon_featured_teacher","cocoon_featured_posts","cocoon_featured_video","cocoon_features","cocoon_gallery_video","cocoon_parallax","cocoon_parallax_apps","cocoon_parallax_counters","cocoon_parallax_features","cocoon_parallax_testimonials","cocoon_parallax_subscribe","cocoon_parallax_subscribe_2","cocoon_partners","cocoon_parallax_white","cocoon_pills","cocoon_price_tables","cocoon_price_tables_dark","cocoon_services","cocoon_services_dark","cocoon_simple_counters","cocoon_hero_1","cocoon_hero_2","cocoon_hero_3","cocoon_hero_4","cocoon_hero_5","cocoon_hero_6","cocoon_slider_1","cocoon_slider_1_v","cocoon_slider_2","cocoon_slider_3","cocoon_slider_4","cocoon_slider_5","cocoon_slider_6","cocoon_slider_7","cocoon_slider_8","cocoon_steps","cocoon_steps_dark","cocoon_subscribe","cocoon_tablets","cocoon_tabs","cocoon_tstmnls","cocoon_tstmnls_2","cocoon_tstmnls_3","cocoon_tstmnls_4","cocoon_tstmnls_5","cocoon_tstmnls_6","cocoon_contact_form","cocoon_course_categories","cocoon_course_categories_2","cocoon_course_categories_3","cocoon_course_categories_4","cocoon_course_categories_5","cocoon_course_overview","cocoon_course_instructor","cocoon_course_rating","cocoon_course_grid","cocoon_course_grid_2","cocoon_course_grid_3","cocoon_course_grid_4","cocoon_course_grid_5","cocoon_course_grid_6","cocoon_course_grid_7","cocoon_featuredcourses","cocoon_courses_slider","cocoon_more_courses","cocoon_users_slider","cocoon_users_slider_2","cocoon_users_slider_2_dark","cocoon_users_slider_round"], "310");
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random613b5abac696b9'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random613b5abac696b9'); });
+})();
+//]]>
+</script>
+
+  </div>
+  
+</body>
+
+</html>
